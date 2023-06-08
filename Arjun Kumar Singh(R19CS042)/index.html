@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title>Restaurant Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="top">
+            <div class="logo">Arjunresto</div>
+            <div class="nav">
+                <a href="#">Home</a>
+                <a href="#">Order</a>
+                <a href="#">Food</a>
+                <a href="#">Resturant</a>
+                <a href="#">Testimonals</a>
+                <a href="#">Contactus</a>
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-search"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="heading">
+            <div class="left">
+                <p>Are You Hungry?</p>
+                <h1>Don't Wait</h1>
+                <p>Let start to order food now</p>
+
+                <button>Check out Menu</button>
+            </div>
+
+            <div class="right" id="food"></div>
+
+            <div class="SocialMedia">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+
+        
+        </div>
+        
+    </style>
+</head>
+<body>
+    
+
+   
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+      
+
+        /* Menu page */
+        .menu-page {
+            background-image: url('menu-background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .menu-page h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .menu-page p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+           
+        </ul>
+    </nav>
+
+    <section id="homepage" class="homepage">
+        
+    </section>
+
+    <section id="menu-page" class="menu-page">
+        <h1>Our Menu</h1>
+        <p>Check out our delicious dishes.</p>
+    </section>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <div class="footer">
+        <div class="menu">
+            <div id="food1"></div>
+            <div id="food2"></div>
+            <div id="food3"></div>
+        </div>
+</body>
+</html>
+
+
+        <script src="javascript.js"></script>
+    </body>
+</html>
